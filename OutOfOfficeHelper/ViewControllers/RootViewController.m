@@ -15,7 +15,7 @@ NSString * const kDefaultsRecipientsKey = @"__kDefaultsRecipientsKey";
 
 NSString * const kRootToDatePickerSegueIdentifier = @"kRootToDatePickerSegueIdentifier";
 
-@interface RootViewController () <DatePickerOverlayDelegate, WFHPTOPickerOverlayDelegate>
+@interface RootViewController () <DatePickerOverlayDelegate, WFHPTOPickerOverlayDelegate, UITextFieldDelegate>
 
 @property (strong, nonatomic) NSDate *startDate;
 @property (strong, nonatomic) NSDate *endDate;
@@ -158,6 +158,14 @@ NSString * const kRootToDatePickerSegueIdentifier = @"kRootToDatePickerSegueIden
         self.ptoHoursUsedField.text = @"0.0";
     }
     [self hideWfhPtoPicker];
+}
+
+#pragma mark - UITextFieldDelegate
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return NO;
 }
 
 

@@ -124,15 +124,15 @@
 		BCC0FD7619C4BB5300C7E876 /* OutOfOfficeHelper */ = {
 			isa = PBXGroup;
 			children = (
+				BCC0FDA619C68F6700C7E876 /* Main.storyboard */,
+				BCC0FD8619C4BB5400C7E876 /* LaunchScreen.xib */,
+				BCC0FD8419C4BB5400C7E876 /* Images.xcassets */,
 				BCC0FD7B19C4BB5300C7E876 /* AppDelegate.h */,
 				BCC0FD7C19C4BB5300C7E876 /* AppDelegate.m */,
-				BCC0FD8419C4BB5400C7E876 /* Images.xcassets */,
-				BCC0FD8619C4BB5400C7E876 /* LaunchScreen.xib */,
 				BCC0FD7719C4BB5300C7E876 /* Supporting Files */,
 				4BA90A94A4A6EFC66400A10E /* ViewControllers */,
 				4BA903ACA78007DA3C956291 /* Categories */,
 				4BA903B27DD5B9588DBED6AA /* Views */,
-				BCC0FDA619C68F6700C7E876 /* Main.storyboard */,
 			);
 			path = OutOfOfficeHelper;
 			sourceTree = "<group>";
