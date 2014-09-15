@@ -8,7 +8,7 @@
 
 #import "WFHPTOPickerOverlay.h"
 
-static NSString * const kWfhPtoTypeNoneString = @"None";
+static NSString * const kWfhPtoTypeNeitherString = @"Neither";
 static NSString * const kWfhPtoTypeWfhOnlyString = @"WFH Only";
 static NSString * const kWfhPtoTypePtoOnlyString = @"PTO Only";
 static NSString * const kWfhPtoTypeBothString = @"Both";
@@ -64,7 +64,7 @@ static NSString * const kWfhPtoTypeBothString = @"Both";
 + (NSString *)stringForWfhPtoType:(WfhPtoType)type
 {
     switch (type) {
-        case WfhPtoTypeNone: return kWfhPtoTypeNoneString;
+        case WfhPtoTypeNeither: return kWfhPtoTypeNeitherString;
         case WfhPtoTypeWfhOnly: return kWfhPtoTypeWfhOnlyString;
         case WfhPtoTypePtoOnly: return kWfhPtoTypePtoOnlyString;
         case WfhPtoTypeBoth: return kWfhPtoTypeBothString;

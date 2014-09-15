@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, WfhPtoType) {
-    WfhPtoTypeNone = 0,
+    WfhPtoTypeNeither = 0,
     WfhPtoTypeWfhOnly,
     WfhPtoTypePtoOnly,
     WfhPtoTypeBoth

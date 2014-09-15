@@ -26,7 +26,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Comma separated list..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IcH-xp-cgd" userLabel="Recipient Text Field">
                                 <rect key="frame" x="20" y="53" width="560" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="done"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="done"/>
                                 <connections>
                                     <outlet property="delegate" destination="ivB-yh-5MD" id="l3E-q3-i2K"/>
                                 </connections>
